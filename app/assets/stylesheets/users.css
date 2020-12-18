@@ -3,7 +3,7 @@
 }
 .side-bar {
   background-color: #253141;
-  width: 600px;
+  width: 300px;
   height: 100vh;
 }
 
@@ -17,10 +17,38 @@
 
 .rooms {
 
- background-color: #2F3E51;
+ background-color: greenyellow;
 
  height: calc(100vh - 100px);
  padding: 0 20px;
+ overflow: scroll;
+
+}
+
+.depertment {
+  padding: 20px 0 40px;
+}
+
+.depertment-name {
+ text-decoration: none;
+
+ color: white;
+}
+
+
+
+.division-name {
+ text-decoration: none;
+ margin-left: 30px;
+ color: white;
+}
+
+
+
+.section-name {
+ text-decoration: none;
+ margin-left: 60px;
+ color: white;
 }
 
 .chat {
